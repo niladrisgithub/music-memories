@@ -63,10 +63,24 @@ img.logo {
 
 .btn-light{
     background-color: #88acb6;
+    max-width: 60px;
+    position: relative;
+    padding: 0px 25px;
+    text-align: center;
 }
 
 .btn-dark{
     background-color: #1f282b;
+    max-width: 60px;
+    position: relative;
+    padding: 0px 25px;
+    text-align: center;
+}
+
+.material-icons{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .btn-light:hover{
